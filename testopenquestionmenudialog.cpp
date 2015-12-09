@@ -31,7 +31,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include "openquestion.h"
 #include "openquestiondialog.h"
 #include "testtimer.h"
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 
 #include <QFile>
@@ -77,7 +76,7 @@ ribi::About ribi::TestOpenQuestionMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestOpenQuestion",
     "tool to test the OpenQuestion and OpenQuestionDialog classes",
-    "the 20th of August 2013",
+    "December 9th of 2015",
     "2013-2015",
     "http://www.richelbilderbeek.nl/ToolTestOpenQuestion.htm",
     GetVersion(),
@@ -102,24 +101,17 @@ ribi::Help ribi::TestOpenQuestionMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::TestOpenQuestionMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramTestOpenQuestion
-  };
-  assert(p);
-  return p;
-}
 std::string ribi::TestOpenQuestionMenuDialog::GetVersion() const noexcept
 {
-  return "1.0";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::TestOpenQuestionMenuDialog::GetVersionHistory() const noexcept
 {
   return {
-    "2013-08-20: Version 1.0: initial version"
-    "2013-11-05: version 2.1: conformized for ProjectRichelBilderbeekConsole"
+    "2013-08-20: Version 1.0: initial version",
+    "2013-11-05: version 1.1: conformized for ProjectRichelBilderbeekConsole",
+    "2015-12-09: version 2.0: moved to own GitHub",
   };
 }
 

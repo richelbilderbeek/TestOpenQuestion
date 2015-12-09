@@ -14,8 +14,8 @@
    <string>TestOpenQuestion</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestOpenQuestion.qrc">
-    <normaloff>:/images/ToolTestOpenQuestionIcon14x14.png</normaloff>:/images/ToolTestOpenQuestionIcon14x14.png</iconset>
+   <iconset resource="TestOpenQuestion.qrc">
+    <normaloff>:/images/TestOpenQuestionIcon14x14.png</normaloff>:/images/TestOpenQuestionIcon14x14.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
@@ -29,7 +29,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolTestOpenQuestion.qrc"/>
+  <include location="TestOpenQuestion.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -19,7 +19,7 @@
    <string>TestOpenQuestion</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestOpenQuestion.qrc">
+   <iconset>
     <normaloff>:/images/ToolTestOpenQuestionIcon14x14.png</normaloff>:/images/ToolTestOpenQuestionIcon14x14.png</iconset>
   </property>
   <property name="styleSheet">
@@ -44,7 +44,7 @@ QPushButton {
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestOpenQuestion.qrc">:/images/ToolTestOpenQuestionIcon14x14.png</pixmap>
+      <pixmap resource="TestOpenQuestion.qrc">:/images/Question.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -84,7 +84,7 @@ QPushButton {
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestOpenQuestion.qrc"/>
+  <include location="TestOpenQuestion.qrc"/>
  </resources>
  <connections/>
 </ui>
